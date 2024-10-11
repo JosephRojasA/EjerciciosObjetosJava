@@ -40,6 +40,9 @@ return nombre;
 
     }
 
+    public String toString(){
+        return "General {" + codigo + ", nombre " + nombre + "}";
+    }
 
 
 }
